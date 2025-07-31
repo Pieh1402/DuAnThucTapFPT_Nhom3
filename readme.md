@@ -38,25 +38,25 @@ graph TD
 
 DuAnThucTapFPT/
 │
-├── database/ # File SQL: schema, sample data, queries
-│ ├── schema.sql
-│ ├── sample_data.sql
-│ └── report_queries.sql
+├── database/              # File SQL: schema, sample data, queries
+│   ├── schema.sql
+│   ├── sample_data.sql
+│   └── report_queries.sql
 │
-├── FPT_Backend/ # Backend (FastAPI)
-│ ├── requirements.txt
-│ └── src/
-│ ├── main.py
-│ ├── models/
-│ ├── routes/
-│ ├── schemas/
-│ └── utils/
+├── FPT_Backend/           # Backend (FastAPI)
+│   ├── requirements.txt
+│   └── src/
+│       ├── main.py
+│       ├── models/
+│       ├── routes/
+│       ├── schemas/
+│       └── utils/
 │
 ├── FPT_Frontend/
-│ └── Du-an-ftp/
-│ ├── src/
-│ ├── public/
-│ ├── package.json
+│   └── Du-an-ftp/
+│       ├── src/
+│       ├── public/
+│       └── package.json
 
 
 ---
