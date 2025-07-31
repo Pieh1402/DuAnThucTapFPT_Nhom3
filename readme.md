@@ -26,6 +26,7 @@ graph TD
   A[Frontend (Vue.js)] -->|API Request| B[Backend (FastAPI)]
   B -->|ORM Queries| C[(Database)]
   B -->|Send Email| D[Mail Server]
+```
 
 - **Frontend:** Giao diện người dùng, gọi API qua HTTP.
 - **Backend:** Xử lý logic, xác thực, kết nối database, gửi mail.
