@@ -21,7 +21,8 @@ Dự án này là hệ thống quản lý hồ sơ thực tập, hỗ trợ doan
 
 ## 3. Kiến trúc hệ thống
 
-```mermaid
+```
+mermaid
 graph TD
   A[Frontend (Vue.js)] -->|API Request| B[Backend (FastAPI)]
   B -->|ORM Queries| C[(Database)]
@@ -36,7 +37,7 @@ graph TD
 ---
 
 ## 4. Cấu trúc thư mục
-
+```
 DuAnThucTapFPT/
 │
 ├── database/              # File SQL: schema, sample data, queries
@@ -58,7 +59,7 @@ DuAnThucTapFPT/
 │       ├── src/
 │       ├── public/
 │       └── package.json
-
+```
 
 ---
 
