@@ -21,15 +21,6 @@ Dự án này là hệ thống quản lý hồ sơ thực tập, hỗ trợ doan
 
 ## 3. Kiến trúc hệ thống
 
-```
-mermaid
-graph TD
-  A[Frontend (Vue.js)] -->|API Request| B[Backend (FastAPI)]
-  B -->|ORM Queries| C[(Database)]
-  B -->|Send Email| D[Mail Server]
-```
-<pre lang="markdown"> ```mermaid graph TD A[Frontend (Vue.js)] -->|API Request| B[Backend (FastAPI)] B -->|ORM Queries| C[(Database)] B -->|Send Email| D[Mail Server] ``` </pre>
-
 - **Frontend:** Giao diện người dùng, gọi API qua HTTP.
 - **Backend:** Xử lý logic, xác thực, kết nối database, gửi mail.
 - **Database:** Lưu trữ dữ liệu (MySQL/PostgreSQL tuỳ cấu hình).
