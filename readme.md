@@ -23,10 +23,9 @@ Dự án này là hệ thống quản lý hồ sơ thực tập, hỗ trợ doan
 
 ```mermaid
 graph TD
-  A[Frontend (Vue.js)] -- Giao tiếp API --> B[Backend (FastAPI)]
-  B -- ORM --> C[(Database)]
-  B -- Gửi mail --> D[Mail Server]
-```
+  A[Frontend (Vue.js)] -->|Giao tiếp API| B[Backend (FastAPI)]
+  B -->|ORM| C[(Database)]
+  B -->|Gửi mail| D[Mail Server]
 
 - **Frontend:** Giao diện người dùng, gọi API qua HTTP.
 - **Backend:** Xử lý logic, xác thực, kết nối database, gửi mail.
